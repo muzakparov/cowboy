@@ -7,6 +7,7 @@
 %% API.
 -export([start/2]).
 -export([stop/1]).
+-export([test/0]).
 
 %% API.
 
@@ -27,3 +28,6 @@ start(_Type, _Args) ->
 
 stop(_State) ->
 	ok.
+
+test()->
+	test.
